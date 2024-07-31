@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="astrobook",
-    version="0.0.1",
+    version="0.0.2",
     author="Behrouz Safari",
     author_email="behrouz.safari@gmail.com",
     description="A python package for astronomical calculations",
@@ -20,6 +20,6 @@ setup(
     ],
     packages = find_packages(),
     include_package_data=True,
-    install_requires=["numpy", "scipy", "matplotlib","pandas", "requests"],
+    install_requires=["numpy", "pandas", "requests"],
     python_requires='>=3.7',
 )
